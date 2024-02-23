@@ -518,9 +518,6 @@ def test_vessel_2(path_1, ch = Constants.BINARY_CLASS):
         with torch.no_grad():
             for iter_ in range(int(Constants.total_drive)):
             # for iter_ in range(0,8):
-            # for iter_ in range(10,11):
-            # for iter_ in [0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]:
-            # for iter_ in [0,1,2,4,5,6,7,9,10,11,12,14,16,17,18,20,21,22,24,25,27,28,29,30,31,33]:
                 skel_img = skels[iter_]
                 skel_img = np.expand_dims(skel_img, axis=0)
                 skel_img = torch.tensor(skel_img, dtype=torch.float32).to(device)
