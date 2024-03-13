@@ -17,5 +17,6 @@
   ├── datasets: The datasets we used in our paper
   ├── net.method.py: The CFI-Net module code
   ├── net.network.py: The CFI-Net structure code
+  ├── Constants.py:  parameter settings
   └── data_crop.read_data_crop.py: Preprocessing of data like random flipping and rotation
 ```
