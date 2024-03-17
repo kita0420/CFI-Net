@@ -15,6 +15,7 @@
 
 ```
   ├── datasets: The datasets we used in our paper
+  ├── data_process:  Preprocessing method we used
   ├── net.method.py: The CFI-Net module code
   ├── net.network.py: The CFI-Net structure code
   ├── Constants.py:  parameter settings
